@@ -1,7 +1,6 @@
 import threading
 from flask import Flask, render_template
 from lib import bitcoin
-
 from turbo_flask import Turbo
 import redis
 
