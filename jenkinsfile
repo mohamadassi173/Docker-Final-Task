@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'sudo docker push mohamadassi173/bitcoin-flask:latest'
+				sh 'sudo docker push mohamadassi173/bitcoin-flask'
 			}
 		}
 	}
